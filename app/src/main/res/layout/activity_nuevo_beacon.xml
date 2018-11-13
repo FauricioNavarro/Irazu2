@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".NuevoBeacon">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/et_descrip"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textAlignment="center"
+        android:inputType="textMultiLine"
+        android:hint="Descripción"/>
+
+    <Button
+        android:id="@+id/btn_add_chofer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:textSize="18sp"
+        android:hint="Registrar"
+        android:onClick="Registrar"/>
+</LinearLayout>
